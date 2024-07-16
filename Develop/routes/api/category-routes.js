@@ -1,5 +1,4 @@
 const router = require("express").Router();
-const { canTreatArrayAsAnd } = require("sequelize/types/lib/utils");
 const { Category, Product } = require("../../models");
 const { findByPk } = require("../../models/Category");
 
@@ -71,7 +70,7 @@ router.delete("/:id", async (req, res) => {
     }
     res.status(200).json(categoryData);
   } catch (err) {
-    res.status(200).json(err);
+    res.status(500).json(err);
   }
 });
 
