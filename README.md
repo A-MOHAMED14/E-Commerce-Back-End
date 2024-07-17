@@ -6,7 +6,15 @@
 
 This is a backend system designed for an E-commerce application built with Express.js, PostgreSQL, and Sequelize. It provides RESTful API endpoints to manage categories, products, and tags within an E-commerce platform. The application enables users to perform CRUD operations and establishes relationships between the different entities, making it easy to organize and manage product data.
 
-## Installation
+## Table of Contents
+
+- [Installation 🚀](#installation)
+- [Usage 🏗️](#usage)
+- [Contributing 🤝](#contributing)
+- [License 📄](#license)
+- [Questions ❓](#questions)
+
+## Installation 🚀
 
 1. Clone the Repository:
 
@@ -44,7 +52,7 @@ psql -U <your_postgresql_username> -d <your_database_name> -f db/schema.sql
 npm run seed
 ```
 
-## Usage
+## Usage 🏗️
 
 To start the application, run the following command:
 
@@ -54,7 +62,7 @@ npm run start
 
 This will sync the Sequelize models to your PostgreSQL database, and will then start the server. The server will be running on http://localhost:3001
 
-## Contributing
+## Contributing 🤝
 
 Contributions are welcome! If you'd like to contribute to this project, please follow these guidelines:
 
@@ -79,11 +87,11 @@ git push origin feature/your-feature-name
 
 5. Open a pull request to the main repository, describing your changes in detail.
 
-## License
+## License 📄
 
 This project is licensed under the MIT License. You are free to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the software, provided that the original copyright notice and permission notice are included in all copies or substantial portions of the software. For more details, see the MIT [LICENSE](https://opensource.org/licenses/MIT) file.
 
-## Questions
+## Questions ❓
 
 If you have any questions about the project, please feel free to contact me directly:
 
